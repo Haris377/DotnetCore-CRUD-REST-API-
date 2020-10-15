@@ -2,10 +2,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace webapidotnetcore.Dto
 {
-    public class CommandReadDto
+    public class CommandUpdateDto
     {
-        public int Id { get; set; }
-
         [Required]
         [MaxLength(250)]
         public string HowTo { get; set; }
